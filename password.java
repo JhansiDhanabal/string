@@ -77,6 +77,12 @@ class pass
         }
         else 
         {
+            if(lower<2)
+                System.out.println("it contain only lower case="+lower);
+            if(upper<2)
+                System.out.println("it contain only upper case="+upper);
+            if(digit<2)
+                System.out.println("it contain only digit="+digit);
             return 1;
         }
     }   
